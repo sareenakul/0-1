@@ -1,0 +1,4 @@
+Javascript is a single threaded language.
+But time can be saved by Asyncronous functions :
+    - Delegating
+    - Context Switching
