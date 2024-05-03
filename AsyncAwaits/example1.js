@@ -8,9 +8,9 @@ function findSum(n){
 
 
 function callFunc(){
-    return findSum(100);
+    console.log(findSum(100));
 }
 
 
-setTimeout(callFunc, 2000)
-console.log("Async is working here 2 seconds late");
+setTimeout(callFunc, 10000)
+// console.log("Async is working here 2 seconds late");

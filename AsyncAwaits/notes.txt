@@ -2,3 +2,10 @@ Javascript is a single threaded language.
 But time can be saved by Asyncronous functions :
     - Delegating
     - Context Switching
+
+* Can also perform syncSleep that runs a meaningless loop to pass time.
+
+
+Other Async functions:-
+    fs.readFile
+    Fetch
