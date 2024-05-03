@@ -9,3 +9,10 @@ But time can be saved by Asyncronous functions :
 Other Async functions:-
     fs.readFile
     Fetch
+
+# Checkout Latentflip.com for visual understanding of how Asyncronous functions work
+along with call stack and callback queue. 
+
+### Promises: Syntactical sugar or a pretty way to write call back functions.
+
+# Should have no arguments or callbacks in there.
