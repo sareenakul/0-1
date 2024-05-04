@@ -1,10 +1,13 @@
 
-var pro = new Promise(function(resolve){
-    resolve();
-})
-
-function callBack(){
-    console.log(pro);
+function promiseKrenge(){
+    let fam = new Promise(function(resolve){
+        setTimeout(resolve, 10000);
+    });
+    return fam;
 }
 
-pro.then(callBack)
+const value = promiseKrenge();
+
+value.then(function(){
+    console.log("The promise has been reached");
+});
